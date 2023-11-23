@@ -1,0 +1,57 @@
+.companyLogo{
+position: relative;
+}
+  
+.logo {
+   position: absolute;
+   top: -50px; 
+   cursor: pointer;
+   }
+  
+body {
+    margin: 0;
+    background: #F4F6F8;
+    }
+  
+.jobContainers {
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    margin: 5rem;
+  }
+  
+  .jobContainer{
+    margin-top: 20px;
+    padding: 2rem;
+    background: #FFF;
+  }
+  
+  .jobContainer span, .time{
+    color: #6E8098;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 10px;
+  }
+  
+  .jobContainer h2 {
+    color: #19202D;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .time {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .time li:first-child{
+    list-style: none;
+  }
+  
+  .jobContainer h4 {
+    color: #5964E0;
+    font-size: 14px;
+    font-weight: 700;
+  }

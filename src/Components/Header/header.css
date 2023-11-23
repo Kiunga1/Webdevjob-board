@@ -1,0 +1,11 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 5rem;
+    align-items: center;
+    background: #5964E0;
+}
+   
+.header .heading {
+    color: white;
+}
